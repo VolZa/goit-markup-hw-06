@@ -717,7 +717,8 @@ h2{
   width: 18px;
   height: 18px;
 }
-.modal__close:hover .modal__close-icon {
+.modal__close:hover .modal__close-icon,
+.modal__close:focus .modal__close-icon {
   fill: var(--color-chromatic-usual);
 }
 .modal__title {
