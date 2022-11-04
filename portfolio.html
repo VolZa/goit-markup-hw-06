@@ -291,7 +291,7 @@
 
     <footer class="footer">
       <div class="footer__container container">
-        <div class="footer__block footer-address">
+        <div class="footer__block">
           <a class="logo__footer logo" href="./index.html">
             <span class="accent">Web</span>Studio
           </a>
@@ -356,6 +356,31 @@
             </li>
           </ul>
         </div>
+        <form action="" footer__block>
+          <h3 class="footer__subtitle subtitle">Підпишіться на розсилку</h3>
+          <div>
+            <label>
+              <input
+                class="footer__input"
+                type="email"
+                name="email"
+                id="user_email"
+                placeholder="E-mail"
+                autofocus
+              />
+            </label>
+            <button class="footer__button button" type="submit">
+              Підписатися
+              <svg
+                class="icon-social__icon footer__send-icon"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icon/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
