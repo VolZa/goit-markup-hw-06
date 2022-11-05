@@ -648,6 +648,7 @@ h2{
   border-radius: 4px;
   color: var(--color-context);
   outline: transparent;
+  transition: border-color var(--timing-function);
 }
 
 .modal__comment {
@@ -730,20 +731,20 @@ h2{
   line-height: 1.15;
 }
 
-.modal__user-name  {
-  margin-bottom: 10px;
-}
 .modal__input-wrapper {
   margin-bottom: 20px;
   position: relative;
 
 }
-
+.modal__user-name  {
+  margin-bottom: 10px;
+}
 .modal__input-icon {
   position: absolute;
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
+  transition: fill var(--timing-function); 
 }
 
 .modal__label {
